@@ -5,11 +5,11 @@ if(localStorage.getItem('branch') != null){
 }
 
 if(localStorage.getItem('currentEmail') != null){
-    values[0].innerText = localStorage.getItem('currentEmail');
+    values[1].innerText = localStorage.getItem('currentEmail');
 }
 
 if(localStorage.getItem('currentPhonenumber') != null){
-    values[0].innerText = localStorage.getItem('currentPhonenumber');
+    values[2].innerText = localStorage.getItem('currentPhonenumber');
 }
 
 
