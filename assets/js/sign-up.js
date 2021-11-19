@@ -71,6 +71,6 @@ signUpButton.addEventListener('click', function(e){
     localStorage.setItem("currentEmail", inputs[2].value);
 
 
-    window.location = '/dashboard.html';
+    window.location.href = '/dashboard.html';
 });
 

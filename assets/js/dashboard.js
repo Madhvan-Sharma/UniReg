@@ -26,18 +26,18 @@ let tabs = document.getElementsByClassName('tabs');
 
 
 tabs[0].addEventListener('click', function(){
-    window.location = "./update-profile.html";
+    window.location.href = "/update-profile.html";
 });
 
 tabs[1].addEventListener('click', function(){
-    window.location = "./streams.html";
+    window.location.href = "/streams.html";
 });
 
 
 tabs[2].addEventListener('click', function(){
-    window.location = "./view-forms.html";
+    window.location.href = "/view-forms.html";
 });
 
 tabs[3].addEventListener('click', function(){
-    window.location = "./view-forms.html";
+    window.location.href = "/view-forms.html";
 });
