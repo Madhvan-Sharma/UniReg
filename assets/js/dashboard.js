@@ -39,5 +39,5 @@ tabs[2].addEventListener('click', function(){
 });
 
 tabs[3].addEventListener('click', function(){
-    window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "view-forms.html";
+    window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "fee-receipt.html";
 });
