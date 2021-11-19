@@ -32,7 +32,7 @@ document.getElementById('submit-btn').addEventListener('click', function(e){
         });
 
         setTimeout(function(){
-            window.location.href = "/dashboard.html" 
+            window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "dashboard.html" 
         }, 2000);
     }
 

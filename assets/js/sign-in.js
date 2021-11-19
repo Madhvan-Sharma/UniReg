@@ -69,7 +69,7 @@ signInButton.addEventListener('click', function (e) {
     localStorage.setItem("currentPassword", fields[1].value);
     
 
-    window.location.href = "/dashboard.html";
+    window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "dashboard.html";
     return;
   }
   else {

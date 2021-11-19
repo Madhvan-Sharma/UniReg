@@ -26,18 +26,18 @@ let tabs = document.getElementsByClassName('tabs');
 
 
 tabs[0].addEventListener('click', function(){
-    window.location.href = "/update-profile.html";
+    window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "update-profile.html";
 });
 
 tabs[1].addEventListener('click', function(){
-    window.location.href = "/streams.html";
+    window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "streams.html";
 });
 
 
 tabs[2].addEventListener('click', function(){
-    window.location.href = "/view-forms.html";
+    window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "view-forms.html";
 });
 
 tabs[3].addEventListener('click', function(){
-    window.location.href = "/view-forms.html";
+    window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "view-forms.html";
 });
