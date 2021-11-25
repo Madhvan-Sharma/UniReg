@@ -29,6 +29,10 @@ logOut.addEventListener('click', function(e){
 
     localStorage.removeItem('currentUser');
     localStorage.removeItem('currentPassword');
+    localStorage.removeItem('branch');
+    localStorage.removeItem('currentEmail');
+    localStorage.removeItem('branchAllotted');
+    localStorage.removeItem('currentPhonenumber');
 
 
     iziToast.success({

@@ -5,6 +5,10 @@ logOut.addEventListener('click', function(e){
 
     localStorage.removeItem('currentUser');
     localStorage.removeItem('currentPassword');
+    localStorage.removeItem('branch');
+    localStorage.removeItem('currentEmail');
+    localStorage.removeItem('branchAllotted');
+    localStorage.removeItem('currentPhonenumber');
 
 
     iziToast.success({
@@ -13,7 +17,7 @@ logOut.addEventListener('click', function(e){
     });
 
     setTimeout(function(){
-        location.reload();
+        window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "index.html";
     }, 2000);
 });
 

@@ -67,6 +67,13 @@ signInButton.addEventListener('click', function (e) {
 
     localStorage.setItem("currentUser", fields[0].value);
     localStorage.setItem("currentPassword", fields[1].value);
+    if(fields[0].value == 'Himesh'){
+      localStorage.setItem('currentEmail', 'mahabi.himesh@gmail.com');  
+    }
+    else localStorage.setItem('currentEmail', 'madhvan.sharma@gmail.com');
+    
+    localStorage.setItem('branchAllotted', 'false');
+    localStorage.setItem('currentPhonenumber', '+919876543219');
     
 
     window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "dashboard.html";
